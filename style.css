@@ -1,0 +1,183 @@
+*{
+    margin:0;
+}
+
+body, html{
+background: url(redbackg.jpg);
+}
+
+:root{
+    --primary:  #707070;
+    --secondary:  #000000CC;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1f2937;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(62, 4, 10), rgb(105, 4, 26), rgb(255, 17, 17));
+    border-radius: 10px;
+  }
+
+a{
+    position: absolute;
+    top: 60px;
+    left: 141px;
+    font: bold 19px Helvetica Neue;
+    font-weight: 1000px;
+}
+
+.line1{
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    border: 1px solid var(--primary);
+    top: 71px;
+    left: 85px;
+}
+
+.text1{
+    position: absolute;
+    top: 191px;
+    left: 85px;
+    font: bold 23px Helvetica Neue;
+    color: #da292f;
+}
+
+.text2{
+    position: absolute;
+    top: 236px;
+    left: 85px;
+    font: bold 80px Asul;
+    color: var(--secondary);
+    }
+
+.text3{
+    position: absolute;
+    top: 332px;
+    left: 85px;
+    font: bold 23px Helvetica Neue;
+    color:var(--secondary);
+    width: 400px;
+}
+
+.text4{
+    position: absolute;
+    top: 430px;
+    left: 85px;
+    width: 400px;
+    font: 20px Helvetica Neue;
+    color: var(--secondary);
+}
+
+.text5{
+    position: absolute;
+    top: 570px;
+    left: 141px;
+    font: bold 19px Helvetica Neue;
+    color: white;
+}
+
+.line2{
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    border: 1px solid white;
+    top: 580px;
+    left: 85px;
+}
+
+.container1{
+    font: bold 20px Helvetica Neue;
+    color: white;
+}
+
+.text6{
+    position: absolute;
+    top: 626px;
+    left: 85px;
+}
+
+.text7{
+    position: absolute;
+    top: 626px;
+    left: 302px;
+}
+
+.container2{
+    font: 20px Helvetica Neue;
+    color: white;
+}
+
+.text8{
+    position: absolute;
+    top: 653px;
+    left: 85px;
+}
+
+.text9{
+    position: absolute;
+    top: 653px;
+    left: 302px;
+}
+
+.text10{
+    position: absolute;
+    top: 200px;
+    right: 60px;
+    rotate: 90deg;
+    font: bold 25px Helvetica Neue;
+    color: white;
+}
+
+.line3{
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    border: 1px solid white;
+    rotate: 90deg;
+    top: 340px;
+    right: 90px;
+}
+
+.icon1{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 580px ;
+    right: 95px;
+    z-index: 16;
+}
+
+.icon2{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 495px ;
+    right: 95px;
+    z-index: 16;
+}
+
+.icon3{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 410px ;
+    right: 95px;
+    z-index: 16;
+}
+
+.slayin{
+    position: absolute;
+    top: -70px;
+left: 600px;
+width: 790px;
+height: 790px;
+}
+
